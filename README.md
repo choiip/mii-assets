@@ -24,6 +24,8 @@ Usage:
 
 ```bash
 python3 fflExtract.py -i <face library archive> <tex count> <mesh count> -t <tex output dir> -m <mesh output dir>
+python3 fflExtract.py -i AFLResHigh_2_3.dat 365 859 -t ./tex_2_3 -m ./mesh_2_3
+python3 fflExtract.py -i AFLResHigh.dat 317 857 -t ./tex -m ./mesh
 ```
 
 `tex count` and `mesh count` depend on the file you're extracting:
